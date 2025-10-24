@@ -1,0 +1,5 @@
+netstat -ano | findstr :5070
+
+taskkill /PID 2660 /F
+
+
